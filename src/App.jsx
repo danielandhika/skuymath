@@ -69,7 +69,7 @@ function App() {
               </h2>
             </div>
           </div>
-          <div className="lg:w-2/5 lg:py-8 h-auto flex-1 flex lg:max-h-none md:max-h-[300px] sm:max-h-[300px] overflow-hidden">
+          <div className="lg:w-2/5 lg:py-8 h-auto flex-1 flex lg:max-h-none md:max-lg:h-[300px] sm:max-lg:h-[300px] overflow-hidden">
             <img
               src="https://images.unsplash.com/photo-1577896851231-70ef18881754?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               className="w-full h-full object-cover"
@@ -164,15 +164,122 @@ function App() {
       </section>
       <section
         id="section-4"
-        className="flex flex-col min-h-screen lg:px-12 md:px-8 px-4 bg-[#FAEFEF]"
+        className="flex flex-col justify-center min-h-screen lg:px-12 md:px-8 px-4 bg-[#FAEFEF]"
       >
-        Section 4
+        <h1 className="lg:text-5xl md:text-3xl text-2xl font-semibold mb-6 md:mb-8 text-center">
+          What our learners say
+        </h1>
+        <p className="lg:text-2xl md:text-xl text-lg mb-6 md:mb-8 text-center">
+          100+ thousand people have already joined SkuyMath
+        </p>
+        <div className="flex flex-col lg:flex-row gap-x-6 gap-y-8">
+          {/* 1 */}
+          <div className="p-6">
+            <h2 className="lg:text-2xl md:text-xl text-lg font-semibold text-center mb-2">
+              Review 1
+            </h2>
+            <img
+              className="w-40 h-40 object-cover rounded-full mx-auto my-4"
+              src="https://images.unsplash.com/photo-1577896851231-70ef18881754?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            />
+            <p className="text-lg mb-4 text-center">
+              "SkuyMath has been a game-changer for me! As someone who struggled
+              with math, the engaging lessons and interactive exercises helped
+              me grasp difficult concepts with ease. The platform's
+              user-friendly interface makes learning enjoyable, and I appreciate
+              the personalized approach to teaching. Kudos to the SkuyMath team
+              for creating such an excellent resource!"
+            </p>
+            <p className="text-center text-lg md:text-xl font-medium">
+              Student of SMAN 1 Semarang
+              <br />
+              Grade 11
+            </p>
+          </div>
+          {/* 2 */}
+          <div className="p-6">
+            <h2 className="lg:text-2xl md:text-xl text-lg font-semibold text-center mb-2">
+              Review 2
+            </h2>
+            <img
+              className="w-40 h-40 object-cover rounded-full mx-auto my-4"
+              src="https://images.unsplash.com/photo-1577896851231-70ef18881754?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            />
+            <p className="text-lg mb-4 text-center">
+              "SkuyMath has been a game-changer for me! As someone who struggled
+              with math, the engaging lessons and interactive exercises helped
+              me grasp difficult concepts with ease. The platform's
+              user-friendly interface makes learning enjoyable, and I appreciate
+              the personalized approach to teaching. Kudos to the SkuyMath team
+              for creating such an excellent resource!"
+            </p>
+            <p className="text-center text-lg md:text-xl font-medium">
+              Student of SMAN 1 Semarang
+              <br />
+              Grade 11
+            </p>
+          </div>
+          {/* 3 */}
+          <div className="p-6">
+            <h2 className="lg:text-2xl md:text-xl text-lg font-semibold text-center mb-2">
+              Review 3
+            </h2>
+            <img
+              className="w-40 h-40 object-cover rounded-full mx-auto my-4"
+              src="https://images.unsplash.com/photo-1577896851231-70ef18881754?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            />
+            <p className="text-lg mb-4 text-center">
+              "SkuyMath has been a game-changer for me! As someone who struggled
+              with math, the engaging lessons and interactive exercises helped
+              me grasp difficult concepts with ease. The platform's
+              user-friendly interface makes learning enjoyable, and I appreciate
+              the personalized approach to teaching. Kudos to the SkuyMath team
+              for creating such an excellent resource!"
+            </p>
+            <p className="text-center text-lg md:text-xl font-medium">
+              Student of SMAN 1 Semarang
+              <br />
+              Grade 11
+            </p>
+          </div>
+        </div>
       </section>
       <section
         id="section-5"
-        className="flex flex-col min-h-screen lg:px-12 md:px-8 px-4"
+        className="flex flex-col justify-center min-h-screen lg:px-12 md:px-8 px-4 py-12"
       >
-        Section 5
+        <h1 className="lg:text-5xl md:text-3xl text-2xl font-semibold mb-6 md:mb-8 text-center text-[#F03939]">
+          Why Choose SkuyMath
+        </h1>
+        <div className="border-2 rounded-lg border-dashed border-[#9747FF] md:p-12 p-6 flex flex-col items-center justify-center">
+          {/* Grid Items */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-fit gap-6">
+            {/* INI COPY TERGANTUNG DARI MASING MASING ITEM */}
+            <div class="bg-gray-200 lg:max-h-[350px] p-6 lg:aspect-square flex flex-col justify-center items-center">
+              <img
+                src="https://images.unsplash.com/photo-1577896851231-70ef18881754?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Feature 1 icon"
+                class="w-16 h-16"
+              />
+              <h4 class="text-xl font-semibold text-gray-800 my-2">
+                Feature 1
+              </h4>
+              <p class="text-gray-600 text-base text-center">
+                The course offers a thorough exploration of the subject matter,
+                covering all relevant topics and providing a deep understanding
+                of the subject. The content is often regularly updated to ensure
+                it remains current and relevant.
+              </p>
+            </div>
+          </div>
+          {/* Button */}
+          <h1 className="mt-8 mb-4 md:text-2xl text-xl font-semibold text-[#F03939]">
+            Get the opportunities in your hand
+          </h1>
+          <button className="bg-[#F03939] px-5 py-2 text-white font-medium">
+            Get Started
+          </button>
+        </div>
       </section>
       <section
         id="section-6"
